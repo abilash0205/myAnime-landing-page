@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Anime</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <main>
+      <!--! Navigation Bar -->
+      <nav class="navbar navbar-dark bg-dark navbar-expand-md">
+        <div class="container">
+          <a class="navbar-brand" href="#">Bootstrap Website</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#myCarousel">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#review">Reviews</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./login.html">Login/Signup</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!--! Carousel Container -->
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <!--? Carousel Indicators -->
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="3"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="4"
+            aria-label="Slide 4"
+          ></button>
+        </div>
+
+        <div class="carousel-inner">
+          <!--? Carousel Item 1 -->
+          <div class="carousel-item active">
+            <div
+              class="container d-flex justify-content-center gap-5 align-items-center"
+            >
+              <div class="px-5">
+                <h1 class="text-danger">One-Punch Man</h1>
+                <p class="text-info">
+                  The most powerful superhero in the world can kill anyone with
+                  one blow. But nothing can challenge him, so he struggles with
+                  ennui and depression.
+                </p>
+                <p>
+                  <a class="btn btn-lg btn-primary" href="#">Watch Now</a>
+                </p>
+              </div>
+              <!--* Carousel Image -->
+              <div class="carousel-image">
+                <img src="./assets/opm.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+          <!--? Carousel Item 2 -->
+          <div class="carousel-item">
+            <div
+              class="container d-flex justify-content-center gap-5 align-items-center"
+            >
+              <div class="px-5">
+                <h1 class="text-danger">Demon Slayer: Kimetsu no Yaiba</h1>
+                <p class="text-info">
+                  After a demon attack leaves his family slain and his sister
+                  cursed, Tanjiro embarks upon a perilous journey to find a cure
+                  and avenge those he's lost.
+                </p>
+                <p><a class="btn btn-lg btn-primary" href="#">Watch Now</a></p>
+              </div>
+              <!--* Carousel Image -->
+              <div class="carousel-image">
+                <img src="./assets/ds.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+          <!--? Carousel Item 3 -->
+          <div class="carousel-item">
+            <div
+              class="container d-flex justify-content-center gap-5 align-items-center"
+            >
+              <div class="px-5">
+                <h1 class="text-danger">Haikyu!!</h1>
+                <p class="text-info">
+                  Inspired by a championship match he sees on TV, junior high
+                  schooler Hinata joins a volleyball club and begins training,
+                  despite his short height.
+                </p>
+                <p>
+                  <a class="btn btn-lg btn-primary" href="#">Watch Now</a>
+                </p>
+              </div>
+              <!--* Carousel Image -->
+              <div class="carousel-image">
+                <img src="./assets/hai.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+          <!--? Carousel Item 4 -->
+          <div class="carousel-item">
+            <div
+              class="container d-flex justify-content-center gap-5 align-items-center"
+            >
+              <div class="px-5">
+                <h1 class="text-danger">Naruto</h1>
+                <p class="text-info">
+                  Guided by the spirit demon within him, orphaned Naruto learns
+                  to harness his powers as a ninja in this anime adventure
+                  series.
+                </p>
+                <p><a class="btn btn-lg btn-primary" href="#">Watch Now</a></p>
+              </div>
+              <!--* Carousel Image -->
+              <div class="carousel-image">
+                <img src="./assets/nar.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+          <!--? Carousel Item 5 -->
+          <div class="carousel-item">
+            <div
+              class="container d-flex justify-content-center gap-5 align-items-center"
+            >
+              <div class="px-5">
+                <h1 class="text-danger">SPY x FAMILY</h1>
+                <p class="text-info">
+                  A spy, an assassin and a telepath come together to pose as a
+                  family, each for their own reasons, while hiding their true
+                  identities from each other.
+                </p>
+                <p><a class="btn btn-lg btn-primary" href="#">Watch Now</a></p>
+              </div>
+              <!--* Carousel Image -->
+              <div class="carousel-image">
+                <img src="./assets/sxf.jpg" alt=""">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--? Carousel Slider Buttons -->
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide="prev"
+        >
+          <span
+            id="prevBtn"
+            class="carousel-control-prev-icon"
+            aria-hidden="true"
+          ></span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide="next"
+        >
+          <span
+            id="nextBtn"
+            class="carousel-control-next-icon"
+            aria-hidden="true"
+          ></span>
+        </button>
+      </div>
+
+      <!--! About Section -->
+      <section id="about" class="container mt-5">
+        <h2 class="text-center text-danger">
+          About myAnime: Your Gateway to the Anime Universe
+        </h2>
+        <p class="">
+          Welcome to myAnime, your premier destination for all things anime! We
+          are your passionate community of anime enthusiasts, dedicated to
+          providing you with an immersive and unforgettable anime-watching
+          experience. Whether you're a seasoned otaku or just starting your
+          anime journey, myAnime is the perfect place to dive into the
+          captivating world of Japanese animation.
+        </p>
+        <h3 class="text-center text-danger">What Sets Us Apart:</h3>
+        <ul>
+          <li>
+            <strong>Vast Library:</strong> At myAnime, we boast an extensive and
+            ever-expanding library of anime titles, ranging from timeless
+            classics to the latest releases. Our collection covers a wide range
+            of genres, ensuring there's something for everyone, from
+            action-packed shonen to heartwarming slice-of-life.
+          </li>
+          <li>
+            <strong>High-Quality Streaming:</strong> We pride ourselves on
+            delivering high-quality streaming with crisp visuals and clear
+            sound. Say goodbye to buffering and hello to uninterrupted anime
+            enjoyment. Our platform is designed to ensure your viewing
+            experience is smooth and seamless.
+          </li>
+          <li>
+            <strong>User-Friendly Interface:</strong> Navigating myAnime is a
+            breeze. Our user-friendly interface is intuitive and easy to use,
+            making it simple to find your favorite anime series or discover new
+            ones. Explore genres, browse by release year, and create custom
+            watchlists for an organized viewing experience.
+          </li>
+          <li>
+            <strong>Community and Interaction:</strong> myAnime isn't just a
+            streaming platform; it's a thriving community of anime lovers. Join
+            discussions, read reviews, and connect with fellow fans in our
+            forums. Share your thoughts, theories, and recommendations,
+            fostering a sense of camaraderie among anime enthusiasts.
+          </li>
+          <li>
+            <strong>Mobile-Friendly:</strong> Enjoy anime on the go! myAnime is
+            fully optimized for mobile devices, so you can take your favorite
+            shows with you wherever you are. Stream seamlessly on your
+            smartphone or tablet.
+          </li>
+          <li>
+            <strong>Regular Updates:</strong> We stay up-to-date with the latest
+            anime releases, ensuring that you have access to the hottest
+            episodes as soon as they air. Our commitment to staying current
+            means you won't miss a beat in the anime world.
+          </li>
+          <li>
+            <strong>Ad-Free Experience:</strong> Tired of intrusive ads
+            interrupting your viewing pleasure? myAnime offers an ad-free
+            premium subscription option, allowing you to immerse yourself in
+            anime without any distractions.
+          </li>
+          <li>
+            <strong>Legal and Ethical:</strong> myAnime is dedicated to
+            supporting the anime industry by promoting legal streaming. We
+            acquire content through licensed sources, ensuring that creators and
+            studios receive their due recognition and support.
+          </li>
+        </ul>
+        <p>
+          At myAnime, we believe that anime has the power to inspire, entertain,
+          and connect people from all walks of life. Our mission is to provide a
+          platform where fans can come together to celebrate their shared
+          passion for Japanese animation. So, whether you're reliving your
+          childhood favorites or discovering new gems, myAnime is here to
+          accompany you on your anime journey.
+        </p>
+      </section>
+
+      <!--! Review Section -->
+      <section id="review">
+        <div class="container mt-5">
+          <h2 class="text-center text-danger">myAnime Reviews</h2>
+          <div class="row">
+            <div class="col-md-4 mb-3">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title text-danger">AnimeLover123</h5>
+                  <p class="card-text">
+                    ⭐⭐⭐⭐⭐<br />
+                    myAnime is my go-to source for all things anime. The vast
+                    library and user-friendly interface make it incredibly easy
+                    to find and watch my favorite shows. Plus, the community
+                    aspect is a great bonus; I love discussing episodes with
+                    fellow fans in the forums. Highly recommended!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title text-danger">OtakuMaster27</h5>
+                  <p class="card-text">
+                    ⭐⭐⭐⭐<br />
+                    myAnime offers a solid streaming experience with minimal
+                    buffering. It's convenient to use on both desktop and mobile
+                    devices. My only wish is for more classic titles to be added
+                    to the library. Nonetheless, it's a fantastic platform for
+                    anime lovers.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title text-danger">NewbieAnimeFan</h5>
+                  <p class="card-text">
+                    ⭐⭐⭐⭐⭐<br />
+                    As someone new to the anime scene, myAnime has been a
+                    godsend. The recommendations and reviews from the community
+                    have helped me discover some amazing series. The ad-free
+                    option is a great feature, and the site's commitment to
+                    supporting legal streaming is commendable.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title text-danger">KawaiiKat</h5>
+                  <p class="card-text">
+                    ⭐⭐⭐⭐⭐<br />
+                    myAnime truly lives up to its name—it's a hub of all things
+                    anime! The regular updates mean I never miss the latest
+                    episodes of my favorite shows. The community here is
+                    fantastic, and the forums are a great place to geek out with
+                    fellow fans. Keep up the excellent work, myAnime!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title text-danger">AnimeAddict92</h5>
+                  <p class="card-text">
+                    ⭐⭐⭐⭐<br />
+                    myAnime is a good platform for anime streaming. However,
+                    I've had occasional issues with video quality on slower
+                    internet connections. It would be great to have more
+                    subtitle options, including multiple languages. Overall,
+                    it's a reliable site for anime enthusiasts.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title text-danger">MangaMania:</h5>
+                  <p class="card-text">
+                    ⭐⭐⭐⭐⭐<br />
+                    myAnime has been a lifesaver during my long commutes. The
+                    mobile optimization is top-notch, and I've never encountered
+                    any technical glitches. The library is impressive, and the
+                    fact that they support legal streaming is a huge plus. Keep
+                    it up!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--! Contact Section -->
+      <section id="contact">
+        <div class="container mt-5">
+          <h2 class="text-center mb-3">Contact Us</h2>
+          <div class="row">
+            <div class="col-md-6">
+              <h3>Contact Information</h3>
+              <p>Email: myAnime@outlook.in</p>
+              <p>Phone: +1 (123) 456-7890</p>
+            </div>
+            <div class="col-md-6">
+              <h3>Get in Touch</h3>
+              <form>
+                <div class="mb-3">
+                  <label for="name" class="form-label">Your Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="name"
+                    placeholder="Your Name"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Your Email</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    placeholder="Your Email"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="message" class="form-label">Your Message</label>
+                  <textarea
+                    class="form-control"
+                    id="message"
+                    rows="4"
+                    placeholder="Your Message"
+                  ></textarea>
+                </div>
+                <button type="submit" class="btn btn-outline-light btn-primary">
+                  Submit
+                </button>
+                <button type="button" class="btn btn-outline-light btn-danger">
+                  Cancel
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--! Footer -->
+      <footer class="container pt-5 pb-4">
+        <p class="back-to-top">
+          <a href="#" class="text-decoration-none"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="48"
+              height="48"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm0 7.58l5.995 5.988-1.416 1.414-4.579-4.574-4.59 4.574-1.416-1.414 6.006-5.988z"
+              /></svg
+          ></a>
+        </p>
+        <p>
+          &copy; 2017-2023 myAnime, Inc.
+          <a href="#" class="text-decoration-none">Privacy</a>
+          <a href="#" class="text-decoration-none">Terms</a>
+        </p>
+      </footer>
+    </main>
+  </body>
+</html>

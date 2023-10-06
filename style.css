@@ -1,0 +1,84 @@
+html,
+body {
+  height: 100%;
+  font-size: 18px;
+}
+
+main {
+  background-color: rgb(33, 37, 41);
+  color: aliceblue;
+}
+
+.form-signin {
+  max-width: 380px;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.carousel-inner .carousel-item .container {
+  height: 50vh;
+}
+
+.carousel-inner .carousel-item .container .carousel-image {
+  padding-inline: 3rem;
+}
+
+.carousel-inner .carousel-item .container p {
+  font-size: 22px;
+  color: aliceblue !important;
+}
+
+#about ul li {
+  font-size: 22px;
+}
+
+strong {
+  color: firebrick;
+  font-size: 24px;
+}
+
+#about p {
+  font-size: 24px;
+}
+
+#about ul li {
+  list-style-type: circle;
+}
+
+#review .card {
+  height: 300px;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 32px;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+footer .back-to-top {
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+  .carousel-inner .carousel-item .container {
+    flex-direction: column;
+  }
+}
